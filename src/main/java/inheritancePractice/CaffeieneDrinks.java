@@ -1,4 +1,4 @@
-package inheritance;
+package inheritancePractice;
 
 public abstract class CaffeieneDrinks {
     void boilWater(){
