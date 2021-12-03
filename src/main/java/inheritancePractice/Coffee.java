@@ -1,4 +1,4 @@
-package inheritance;
+package inheritancePractice;
 
 public class Coffee extends CaffeieneDrinks{
 
