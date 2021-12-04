@@ -1,9 +1,9 @@
-package rentcompany.inheritance;
+package rentcompany;
 
-public class K5 extends Car {
-    public K5(int tripDistance) {
-        this.carName = "K5";
-        this.fuelEfficiency = 13;
+public class Sonata extends Car {
+    public Sonata(int tripDistance) {
+        this.carName = "Sonata";
+        this.fuelEfficiency = 10;
         this.tripDistance = tripDistance;
     }
 

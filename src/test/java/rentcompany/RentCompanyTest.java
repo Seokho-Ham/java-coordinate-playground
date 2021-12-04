@@ -1,10 +1,7 @@
 package rentcompany;
 
 import org.junit.jupiter.api.Test;
-import rentcompany.inheritance.Avante;
-import rentcompany.inheritance.K5;
-import rentcompany.inheritance.RentCompany;
-import rentcompany.inheritance.Sonata;
+
 
 import static org.assertj.core.api.Assertions.assertThat;
 

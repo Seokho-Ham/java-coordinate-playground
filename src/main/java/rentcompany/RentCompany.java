@@ -1,4 +1,4 @@
-package rentcompany.inheritance;
+package rentcompany;
 
 import java.util.ArrayList;
 import java.util.List;

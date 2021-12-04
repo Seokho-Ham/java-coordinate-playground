@@ -1,4 +1,4 @@
-package rentcompany.inheritance;
+package rentcompany;
 
 public abstract class Car {
     String carName;
