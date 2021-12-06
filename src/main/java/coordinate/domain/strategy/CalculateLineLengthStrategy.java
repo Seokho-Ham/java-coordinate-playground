@@ -4,7 +4,7 @@ import coordinate.domain.Point;
 
 import java.util.List;
 
-public class CalculateLineSizeStrategy implements CalculateStrategy {
+public class CalculateLineLengthStrategy implements CalculateStrategy {
 
     @Override
     public double calculate(List<Point> points) {

@@ -1,7 +1,7 @@
 package coordinate.domain;
 
 import coordinate.domain.figures.StraightLine;
-import coordinate.domain.strategy.CalculateLineSizeStrategy;
+import coordinate.domain.strategy.CalculateLineLengthStrategy;
 import coordinate.domain.strategy.CalculateStrategy;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -24,7 +24,7 @@ public class StraightLineTest {
     @DisplayName("직선의 길이를 받는 테스트")
     void name() {
         StraightLine line = new StraightLine(new String[]{"(10,10)", "(14,15)"});
-        CalculateStrategy strategy = new CalculateLineSizeStrategy();
+        CalculateStrategy strategy = new CalculateLineLengthStrategy();
         assertThat(line.calculate(strategy)).isEqualTo(6.403124, offset(0.00099));
     }
 }
